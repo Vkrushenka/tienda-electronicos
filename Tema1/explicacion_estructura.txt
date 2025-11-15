@@ -1,0 +1,27 @@
+La estructura Producto tiene el siguiente orden de campos:
+- int codigo
+- char nombre[100]
+- int cantidad_disponible
+- float costo
+- float precio_venta
+
+Primero se colocan los datos de identificación (código y nombre), luego el stock
+(cantidad_disponible) y finalmente los valores económicos (costo y precio_venta).
+Esto facilita leer y mostrar la información de cada producto.
+
+La estructura ListaProductos contiene:
+- Producto* items
+- int cantidad
+
+'items' es un puntero a un bloque de memoria dinámica que guarda un arreglo de
+Productos. 'cantidad' indica cuántos elementos hay en ese arreglo. De esta forma
+el inventario puede crecer o reducirse usando realloc sin conocer de antemano
+el número de productos.
+
+Para usuarios se usa la estructura Usuario:
+- char usuario[50]
+- char clave[50]
+- char nombre[100]
+
+Este orden permite buscar rápidamente por usuario y validar la clave, y luego
+mostrar el nombre completo para el mensaje de bienvenida.

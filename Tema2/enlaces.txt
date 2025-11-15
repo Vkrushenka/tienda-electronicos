@@ -1,0 +1,13 @@
+ENLACES DEL TEMA 2 – GITHUB Y VIDEO
+
+1) Repositorio de GitHub:
+https://github.com/_____________
+
+2) Video o GIF demostrando:
+- Creación del repositorio en GitHub
+- Clonación local del repositorio
+- Actualización del proyecto con los archivos del sistema en C
+- Subida de los cambios a GitHub (git add, git commit, git push)
+
+Enlace del GIF o video:
+https://drive.google.com/_____________
