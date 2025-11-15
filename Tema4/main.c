@@ -7,6 +7,8 @@
 #include "producto.h"
 
 // Modificado según el punto 1 - Valeska Urrutia
+// PARTE MODIFICADA PARA EL VIDEO 2 - VALESKA URRUTIA
+
 
 
 typedef struct {
