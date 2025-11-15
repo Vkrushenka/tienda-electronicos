@@ -6,6 +6,9 @@
 #include "usuarios.h"
 #include "producto.h"
 
+// Modificado según el punto 1 - Valeska Urrutia
+
+
 typedef struct {
     Producto* producto;
     int cantidad;
